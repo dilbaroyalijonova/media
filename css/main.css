@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -16,4 +18,215 @@
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/inter-v18-latin-700.woff2") format("woff2");
+}
+
+:root {
+    --navbar-bg: #20222f;
+    --black-color: #1d1f29;
+    --slate-color: #63687d;
+    --green-color: #1eb589;
+    --slate-color-light: #848bab;
+    --read-color: #dc414c;
+    --body-bg: #ffffff;
+    --card-color: rgba(37, 43, 66, 1);
+}
+
+.darc-node {
+    --navbar-bg: #f2f2f2;
+    --body-bg: #1d1f29;
+    --black-color: #ffffff;
+    --card-color: rgba(241, 243, 250, 1);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: var(--body-bg);
+}
+
+h2 {
+    font-size: 5.6rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1210px;
+    padding-left: 50rem;
+    padding-right: 50rem;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 3.6rem;
+    padding-bottom: 15.4rem;
+    background-color: var(--navbar-bg);
+    border-radius: 0 0 2rem 2rem;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info-title {
+    width: 331px;
+    height: 34px;
+    margin-bottom: 3px;
+    font-size: 2.8rem;
+    color: var(--body-bg);
+}
+
+.header-info-discription {
+    color: var(--slate-color);
+    font-size: 1.2rem;
+    width: 162px;
+    height: 17px;
+}
+
+.header-theme-toggle {
+    color: var(--slate-color-light);
+}
+
+.today {
+    position: relative;
+    background-color: var(--black-color);
+}
+
+.follovers {
+    background-color: var(--black-color);
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 5rem;
+}
+
+.card1,
+.card2 {
+    max-width: 255px;
+    max-height: 216px;
+    padding: 1.4rem;
+    background-color: var(--card-color);
+    border-top: 2px solid rgba(29, 161, 242, 1);
+}
+
+.card3 {
+    max-width: 255px;
+    max-height: 216px;
+    padding: 1.4rem;
+    background-color: var(--card-color);
+    border-top: 2px solid rgb(255, 188, 0);
+}
+
+.card4 {
+    max-width: 255px;
+    max-height: 216px;
+    padding: 1.4rem;
+    background-color: var(--card-color);
+    border-top: 2px solid rgba(196, 3, 43, 1);
+}
+
+.h1 {
+    color: var(--body-bg);
+    margin: 1rem 0 1rem 0;
+    font-size: 5rem;
+    line-height: 4rem;
+    width: 129px;
+    height: 48px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.today12 span {
+    color: var(--green-color);
+}
+
+.today12 {
+    padding-left: 40px;
+}
+
+.today144 {
+    padding-left: 40px;
+    color: var(--read-color);
+}
+
+.follover {
+    color: var(--slate-color-light);
+    line-height: 1.45rem;
+    letter-spacing: 5px;
+    size: 1.2rem;
+}
+
+.nathanf {
+    column-gap: 8px;
+    color: var(--slate-color-light);
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.overview {
+    padding-top: 15rem;
+    background-color: var(--black-color);
+}
+
+.like1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 255px;
+    max-height: 125px;
+    background-color: var(--card-color);
+}
+
+.like0 {
+    display: flex;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.like2 {
+    padding-top: 5rem;
+    display: flex;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like h3 {
+    color: var(--body-bg);
+}
+
+.page p {
+    color: var(--slate-color-light);
+}
+
+.number {
+    color: var(--green-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.number h3 {
+    color: var(--body-bg);
+}
+
+.finish {
+    background-color: var(--black-color);
+}
+
+.like {
+    padding-left: 50px;
+}
+
+.qizil {
+    color: var(--read-color);
 }

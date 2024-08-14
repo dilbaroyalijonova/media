@@ -53,8 +53,6 @@ h2 {
 .container {
     width: 100%;
     max-width: 1210px;
-    padding-left: 50rem;
-    padding-right: 50rem;
     margin: 0 auto;
 }
 
@@ -173,32 +171,33 @@ h2 {
     background-color: var(--black-color);
 }
 
-.like1 {
+.like1,
+.like3 {
+    max-width: 255px;
+    max-height: 125px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    max-width: 255px;
-    max-height: 125px;
     background-color: var(--card-color);
 }
 
 .like0 {
     display: flex;
-    column-gap: 1rem;
-    row-gap: 1rem;
+    column-gap: 3rem;
 }
 
 .like2 {
     padding-top: 5rem;
     display: flex;
-    column-gap: 1rem;
-    row-gap: 1rem;
+    column-gap: 3rem;
 }
 
 .page {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .like h3 {
@@ -207,12 +206,17 @@ h2 {
 
 .page p {
     color: var(--slate-color-light);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    width: 65px;
 }
 
 .number {
     color: var(--green-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
 }
 
 .number h3 {
@@ -229,4 +233,15 @@ h2 {
 
 .qizil {
     color: var(--read-color);
+}
+
+.nuber h3 {
+    width: 41px;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+}
+
+.iconca {
+    display: flex;
+    align-items: center;
 }
